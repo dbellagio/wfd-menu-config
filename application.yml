@@ -1,10 +1,5 @@
+# settings here affect all applications that read this config file
+# removing Eureka from here
 info:
   description: WFD Menu Samples
   url: https://github.com/dbellagio/wfd-menu-config
-eureka:
-  client:
-    serviceUrl:
-      # defaultZone: http://172.17.0.2:8761/eureka
-      # defaultZone: http://172.31.0.186:8761/eureka
-      defaultZone: http://172.31.1.100:8761/eureka
-
